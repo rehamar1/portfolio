@@ -21,11 +21,11 @@ class PreviewProject extends StatelessWidget {
      return   Scaffold(
    //appBar: HomeAppBar(),
    appBar: AppBar(
-    backgroundColor: AppColors.appBarColor ,
+    backgroundColor: AppColors.primaryColor ,
     title:  FittedBox(
             child: Text(
               project.name,
-              style: AppStyles.s24.copyWith(color: AppColors.primaryColor),
+              style: AppStyles.s24.copyWith(color: Colors.white),
             ),
           ),
    ),

@@ -14,7 +14,7 @@ abstract class AppStyles {
     fontWeight: FontWeight.w600,
   );
   static TextStyle s32 = TextStyle(
-    color: AppColors.primaryColor,
+    color: AppColors.textColor,
     fontSize: 32,
     fontWeight: FontWeight.w600,
   );
@@ -24,7 +24,7 @@ abstract class AppStyles {
     fontWeight: FontWeight.w600,
   );
   static TextStyle s24 = TextStyle(
-    color: AppColors.white,
+    color: AppColors.subtitleColor,
     fontSize: 28,
     fontWeight: FontWeight.w600,
   );
@@ -34,6 +34,11 @@ abstract class AppStyles {
     fontWeight: FontWeight.w500,
   );
   static TextStyle s18 = TextStyle(
+    color: AppColors.primaryColor,
+    fontSize: 18,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle s38 = TextStyle(
     color: AppColors.primaryappbar,
     fontSize: 18,
     fontWeight: FontWeight.w500,
@@ -54,4 +59,10 @@ abstract class AppStyles {
     fontSize: 17,
     fontWeight: FontWeight.w500,
   );
+   static TextStyle s55 = const TextStyle(
+    color: Colors.white,
+    fontSize: 17,
+    fontWeight: FontWeight.w400,
+  );
+  
 }

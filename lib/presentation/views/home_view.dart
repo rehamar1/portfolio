@@ -16,7 +16,7 @@ class HomeView extends StatelessWidget {
     return   Scaffold(
    //appBar: HomeAppBar(),
    appBar: AppBar(
-    backgroundColor: AppColors.appBarColor ,
+    backgroundColor: AppColors.primaryColor ,
     title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
      children: [

@@ -34,9 +34,9 @@ class ProjectItem extends StatelessWidget {
           Expanded(
             child: AutoSizeText(
               project.description,
-              style: AppStyles.s18,
+              style: AppStyles.s55,
               minFontSize: 12,
-              maxLines: 4,
+              maxLines: 3,
             ),
           ),
           const SizedBox(height: 8),

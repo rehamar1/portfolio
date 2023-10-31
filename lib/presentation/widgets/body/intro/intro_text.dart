@@ -30,7 +30,7 @@ class IntroText extends StatelessWidget {
           AppStrings.developerName,
           style: context.width < DeviceType.ipad.getMaxWidth()
               ? AppStyles.s24
-              : AppStyles.s52,
+              : AppStyles.s24,
           textAlign: _getTextAlign(context.width),
           softWrap: true,
         ),
